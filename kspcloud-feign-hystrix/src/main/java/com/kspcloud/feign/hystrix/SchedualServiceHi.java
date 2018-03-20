@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 注释掉 fallback = SchedualServiceHiHystric.class 熔断就失效
  * @author PeterLee
  * @date 2018/3/20 19:02
- * @param null
+ * @param
  */
 @FeignClient(value = "kspd-provider",fallback = SchedualServiceHiHystric.class)
 public interface SchedualServiceHi {

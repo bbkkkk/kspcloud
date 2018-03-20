@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
  * @FeignClient(value = "kspd-provider",fallback = SchedualServiceHiHystric.class)
  * @author PeterLee
  * @date 2018/3/20 19:03
- * @param null
+ * @param
  */
 @SpringBootApplication
 @EnableHystrix
